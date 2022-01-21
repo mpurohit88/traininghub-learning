@@ -57,4 +57,4 @@ app.post('/registration', LoggerMiddleware, (req, res) => {
 });
 
 // server is running on port 8080
-app.listen('3001', () => console.log("Server is started"));
+app.listen('3001', () => console.log("Server is started."));
